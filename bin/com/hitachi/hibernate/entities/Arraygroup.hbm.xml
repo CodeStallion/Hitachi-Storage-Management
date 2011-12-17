@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Dec 1, 2011 1:11:07 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+ <class catalog="hitachi"
+  name="com.hitachi.hibernate.entities.Arraygroup" table="arraygroup">
+  <composite-id class="com.hitachi.hibernate.entities.ArraygroupId"
+   mapped="false" name="id" unsaved-value="undefined">
+   <key-property name="number" type="int">
+    <column name="number"/>
+   </key-property>
+   <key-property name="displayName" type="string">
+    <column name="displayName"/>
+   </key-property>
+   <key-property name="objectId" type="string">
+    <column name="objectID"/>
+   </key-property>
+  </composite-id>
+  <property generated="never" lazy="false" name="allocatedCapacity" type="long">
+   <column name="allocatedCapacity" not-null="true"/>
+  </property>
+  <property generated="never" lazy="false" name="chassis" type="int">
+   <column name="chassis" not-null="true"/>
+  </property>
+  <property generated="never" lazy="false" name="clprNumber" type="int">
+   <column name="clprNumber" not-null="true"/>
+  </property>
+  <property generated="never" lazy="false" name="controllerId" type="int">
+   <column name="controllerID" not-null="true"/>
+  </property>
+  <property generated="never" lazy="false" name="diskSize" type="float">
+   <column name="diskSize" not-null="true" precision="10" scale="0"/>
+  </property>
+  <property generated="never" lazy="false" name="diskSizeInKb" type="long">
+   <column name="diskSizeInKB" not-null="true"/>
+  </property>
+  <property generated="never" lazy="false" name="diskType" type="string">
+   <column length="45" name="diskType" not-null="true"/>
+  </property>
+  <property generated="never" lazy="false" name="dpPoolId" type="int">
+   <column name="dpPoolID" not-null="true"/>
+  </property>
+  <property generated="never" lazy="false" name="emulation" type="string">
+   <column name="emulation" not-null="true"/>
+  </property>
+  <property generated="never" lazy="false" name="encrypted" type="int">
+   <column name="encrypted" not-null="true"/>
+  </property>
+  <property generated="never" lazy="false" name="freeCapacity" type="long">
+   <column name="freeCapacity" not-null="true"/>
+  </property>
+  <property generated="never" lazy="false" name="hiHsmCapacity" type="long">
+   <column name="hiHsmCapacity" not-null="true"/>
+  </property>
+  <property generated="never" lazy="false" name="imAllocatedCapacity" type="long">
+   <column name="imAllocatedCapacity" not-null="true"/>
+  </property>
+  <property generated="never" lazy="false" name="imFreeCapacity" type="long">
+   <column name="imFreeCapacity" not-null="true"/>
+  </property>
+  <property generated="never" lazy="false" name="imHiHsmCapacity" type="long">
+   <column name="imHiHsmCapacity" not-null="true"/>
+  </property>
+  <property generated="never" lazy="false" name="imOnDemandCapacity" type="long">
+   <column name="imOnDemandCapacity" not-null="true"/>
+  </property>
+  <property generated="never" lazy="false" name="imTotalCapacity" type="long">
+   <column name="imTotalCapacity" not-null="true"/>
+  </property>
+  <property generated="never" lazy="false" name="largestFreeSpace" type="long">
+   <column name="largestFreeSpace" not-null="true"/>
+  </property>
+  <property generated="never" lazy="false" name="mfAllocatedCapacity" type="long">
+   <column name="mfAllocatedCapacity" not-null="true"/>
+  </property>
+  <property generated="never" lazy="false" name="mfHiHsmCapacity" type="long">
+   <column name="mfHiHsmCapacity" not-null="true"/>
+  </property>
+  <property generated="never" lazy="false" name="mfOnDemandCapacity" type="long">
+   <column name="mfOnDemandCapacity" not-null="true"/>
+  </property>
+  <property generated="never" lazy="false" name="mfTotalCapacity" type="long">
+   <column name="mfTotalCapacity" not-null="true"/>
+  </property>
+  <property generated="never" lazy="false" name="mfUnallocatedCapacity" type="long">
+   <column name="mfUnallocatedCapacity" not-null="true"/>
+  </property>
+  <property generated="never" lazy="false" name="onDemandCapacity" type="long">
+   <column name="onDemandCapacity" not-null="true"/>
+  </property>
+  <property generated="never" lazy="false" name="openAllocatedCapacity" type="long">
+   <column name="openAllocatedCapacity" not-null="true"/>
+  </property>
+  <property generated="never" lazy="false" name="openFreeCapacity" type="long">
+   <column name="openFreeCapacity" not-null="true"/>
+  </property>
+  <property generated="never" lazy="false" name="openHiHsmCapacity" type="long">
+   <column name="openHiHsmCapacity" not-null="true"/>
+  </property>
+  <property generated="never" lazy="false" name="openOnDemandCapacity" type="long">
+   <column name="openOnDemandCapacity" not-null="true"/>
+  </property>
+  <property generated="never" lazy="false"
+   name="openReservedActualCapacity" type="long">
+   <column name="openReservedActualCapacity" not-null="true"/>
+  </property>
+  <property generated="never" lazy="false" name="openReservedCapacity" type="long">
+   <column name="openReservedCapacity" not-null="true"/>
+  </property>
+  <property generated="never" lazy="false" name="openTotalCapacity" type="long">
+   <column name="openTotalCapacity" not-null="true"/>
+  </property>
+  <property generated="never" lazy="false"
+   name="openUnallocatedActualCapacity" type="long">
+   <column name="openUnallocatedActualCapacity" not-null="true"/>
+  </property>
+  <property generated="never" lazy="false" name="protectionLevel" type="int">
+   <column name="protectionLevel" not-null="true"/>
+  </property>
+  <property generated="never" lazy="false" name="raidType" type="string">
+   <column length="45" name="raidType" not-null="true"/>
+  </property>
+  <property generated="never" lazy="false" name="slprNumber" type="int">
+   <column name="slprNumber" not-null="true"/>
+  </property>
+  <property generated="never" lazy="false" name="substance" type="int">
+   <column name="substance" not-null="true"/>
+  </property>
+  <property generated="never" lazy="false" name="totalCapacity" type="long">
+   <column name="totalCapacity" not-null="true"/>
+  </property>
+  <property generated="never" lazy="false" name="totalFreeSpace" type="long">
+   <column name="totalFreeSpace" not-null="true"/>
+  </property>
+  <property generated="never" lazy="false" name="type" type="int">
+   <column name="type" not-null="true"/>
+  </property>
+  <property generated="never" lazy="false" name="volumeType" type="int">
+   <column name="volumeType" not-null="true"/>
+  </property>
+ </class>
+</hibernate-mapping>

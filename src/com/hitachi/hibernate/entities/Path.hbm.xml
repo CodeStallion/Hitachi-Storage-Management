@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Dec 16, 2011 4:25:03 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.hitachi.hibernate.entities.Path" table="path" catalog="hitachi">
+        <id name="objectId" type="string">
+            <column name="objectID" />
+            <generator class="assigned" />
+        </id>
+        <property name="lun" type="int">
+            <column name="LUN" not-null="true" />
+        </property>
+        <property name="devNum" type="int">
+            <column name="devNum" not-null="true" />
+        </property>
+        <property name="displayDevNum" type="string">
+            <column name="displayDevNum" not-null="true" />
+        </property>
+        <property name="domainId" type="int">
+            <column name="domainID" not-null="true" />
+        </property>
+        <property name="portId" type="int">
+            <column name="portID" not-null="true" />
+        </property>
+        <property name="portName" type="string">
+            <column name="portName" not-null="true" />
+        </property>
+        <property name="scsiId" type="int">
+            <column name="scsiID" not-null="true" />
+        </property>
+        <property name="wwnSecurityValidity" type="boolean">
+            <column name="wwnSecurityValidity" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Dec 8, 2011 9:09:23 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.hitachi.hibernate.entities.Pdev" table="pdev" catalog="hitachi">
+        <id name="objectId" type="string">
+            <column name="objectID" />
+            <generator class="assigned" />
+        </id>
+        <property name="arrayGroup" type="int">
+            <column name="arrayGroup" not-null="true" />
+        </property>
+        <property name="arrayGroupName" type="string">
+            <column name="arrayGroupName" not-null="true" />
+        </property>
+        <property name="capacityInKb" type="int">
+            <column name="capacityInKB" not-null="true" />
+        </property>
+        <property name="chassis" type="int">
+            <column name="chassis" not-null="true" />
+        </property>
+        <property name="pdevColumn" type="int">
+            <column name="pdev_column" not-null="true" />
+        </property>
+        <property name="denseNumber" type="int">
+            <column name="denseNumber" not-null="true" />
+        </property>
+        <property name="densePosition" type="int">
+            <column name="densePosition" not-null="true" />
+        </property>
+        <property name="depth" type="int">
+            <column name="depth" not-null="true" />
+        </property>
+        <property name="diskType" type="int">
+            <column name="diskType" not-null="true" />
+        </property>
+        <property name="dkuType" type="string">
+            <column name="dkuType" not-null="true" />
+        </property>
+        <property name="model" type="string">
+            <column name="model" not-null="true" />
+        </property>
+        <property name="pdevid" type="int">
+            <column name="pdevid" not-null="true" />
+        </property>
+        <property name="row" type="int">
+            <column name="row" not-null="true" />
+        </property>
+        <property name="rpm" type="int">
+            <column name="rpm" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

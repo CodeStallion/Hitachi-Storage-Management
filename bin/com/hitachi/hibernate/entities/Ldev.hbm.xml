@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Dec 16, 2011 4:51:07 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.hitachi.hibernate.entities.Ldev" table="ldev" catalog="hitachi">
+        <composite-id name="id" class="com.hitachi.hibernate.entities.LdevId">
+            <key-property name="displayName" type="string">
+                <column name="displayName" />
+            </key-property>
+            <key-property name="devNum" type="int">
+                <column name="devNum" />
+            </key-property>
+            <key-property name="objectId" type="string">
+                <column name="objectID" />
+            </key-property>
+        </composite-id>
+        <property name="arrayGroup" type="int">
+            <column name="arrayGroup" not-null="true" />
+        </property>
+        <property name="arrayGroupName" type="string">
+            <column name="arrayGroupName" not-null="true" />
+        </property>
+        <property name="cacheResidencyMode" type="int">
+            <column name="cacheResidencyMode" not-null="true" />
+        </property>
+        <property name="chassis" type="int">
+            <column name="chassis" not-null="true" />
+        </property>
+        <property name="clprNumber" type="int">
+            <column name="clprNumber" not-null="true" />
+        </property>
+        <property name="consumedSizeInKb" type="int">
+            <column name="consumedSizeInKB" not-null="true" />
+        </property>
+        <property name="cylinders" type="int">
+            <column name="cylinders" not-null="true" />
+        </property>
+        <property name="devType" type="int">
+            <column name="devType" not-null="true" />
+        </property>
+        <property name="diskType" type="int">
+            <column name="diskType" not-null="true" />
+        </property>
+        <property name="dpPoolId" type="int">
+            <column name="dpPoolID" not-null="true" />
+        </property>
+        <property name="dpTier0consumedCapacityInKb" type="int">
+            <column name="dpTier0ConsumedCapacityInKB" not-null="true" />
+        </property>
+        <property name="dpTier1consumedCapacityInKb" type="int">
+            <column name="dpTier1ConsumedCapacityInKB" not-null="true" />
+        </property>
+        <property name="dpTier2consumedCapacityInKb" type="int">
+            <column name="dpTier2ConsumedCapacityInKB" not-null="true" />
+        </property>
+        <property name="dpType" type="string">
+            <column name="dpType" length="45" not-null="true" />
+        </property>
+        <property name="emulation" type="string">
+            <column name="emulation" not-null="true" />
+        </property>
+        <property name="encrypted" type="int">
+            <column name="encrypted" not-null="true" />
+        </property>
+        <property name="guardMode" type="string">
+            <column name="guardMode" length="45" not-null="true" />
+        </property>
+        <property name="isComposite" type="int">
+            <column name="isComposite" not-null="true" />
+        </property>
+        <property name="isStandardLdev" type="boolean">
+            <column name="isStandardLDEV" not-null="true" />
+        </property>
+        <property name="lba" type="int">
+            <column name="lba" not-null="true" />
+        </property>
+        <property name="mfShadowImageVolumeType" type="string">
+            <column name="mfShadowImageVolumeType" not-null="true" />
+        </property>
+        <property name="mfTrueCopyVolumeType" type="string">
+            <column name="mfTrueCopyVolumeType" not-null="true" />
+        </property>
+        <property name="mfUniversalReplicatorPoolId" type="int">
+            <column name="mfUniversalReplicatorPoolID" not-null="true" />
+        </property>
+        <property name="mfUniversalReplicatorVolumeType" type="string">
+            <column name="mfUniversalReplicatorVolumeType" not-null="true" />
+        </property>
+        <property name="onDemandDevice" type="boolean">
+            <column name="onDemandDevice" not-null="true" />
+        </property>
+        <property name="path" type="boolean">
+            <column name="path" not-null="true" />
+        </property>
+        <property name="raidType" type="string">
+            <column name="raidType" not-null="true" />
+        </property>
+        <property name="sizeInKb" type="int">
+            <column name="sizeInKB" not-null="true" />
+        </property>
+        <property name="slotSizeInKb" type="int">
+            <column name="slotSizeInKB" not-null="true" />
+        </property>
+        <property name="slprNumber" type="int">
+            <column name="slprNumber" not-null="true" />
+        </property>
+        <property name="status" type="string">
+            <column name="status" not-null="true" />
+        </property>
+        <property name="stripeSizeinKb" type="int">
+            <column name="stripeSizeinKB" not-null="true" />
+        </property>
+        <property name="substance" type="int">
+            <column name="substance" not-null="true" />
+        </property>
+        <property name="systemDisk" type="int">
+            <column name="systemDisk" not-null="true" />
+        </property>
+        <property name="threshold" type="int">
+            <column name="threshold" not-null="true" />
+        </property>
+        <property name="volumeKind" type="int">
+            <column name="volumeKind" not-null="true" />
+        </property>
+        <property name="volumeType" type="int">
+            <column name="volumeType" not-null="true" />
+        </property>
+        <property name="targetId" type="string">
+            <column name="targetID" not-null="true" />
+        </property>
+        <property name="label" type="string">
+            <column name="label" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

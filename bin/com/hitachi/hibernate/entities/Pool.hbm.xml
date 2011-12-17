@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Dec 1, 2011 1:15:41 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.hitachi.hibernate.entities.Pool" table="pool" catalog="hitachi">
+        <composite-id name="id" class="com.hitachi.hibernate.entities.PoolId">
+            <key-property name="poolId" type="int">
+                <column name="poolID" />
+            </key-property>
+            <key-property name="objectId" type="string">
+                <column name="objectID" />
+            </key-property>
+        </composite-id>
+        <property name="capacityInKb" type="int">
+            <column name="capacityInKB" not-null="true" />
+        </property>
+        <property name="capacityOfVvolsInKb" type="int">
+            <column name="capacityOfVVolsInKB" not-null="true" />
+        </property>
+        <property name="clprNumber" type="int">
+            <column name="clprNumber" not-null="true" />
+        </property>
+        <property name="combination" type="string">
+            <column name="combination" length="45" not-null="true" />
+        </property>
+        <property name="controllerId" type="int">
+            <column name="controllerID" not-null="true" />
+        </property>
+        <property name="diskType" type="int">
+            <column name="diskType" not-null="true" />
+        </property>
+        <property name="freeCapacityInKb" type="int">
+            <column name="freeCapacityInKB" not-null="true" />
+        </property>
+        <property name="migrationInterval" type="int">
+            <column name="migrationInterval" not-null="true" />
+        </property>
+        <property name="monitorEndTime" type="string">
+            <column name="monitorEndTime" length="45" not-null="true" />
+        </property>
+        <property name="monitorStartTime" type="string">
+            <column name="monitorStartTime" length="45" not-null="true" />
+        </property>
+        <property name="numberOfPoolVols" type="int">
+            <column name="numberOfPoolVols" not-null="true" />
+        </property>
+        <property name="numberOfVvols" type="int">
+            <column name="numberOfVVols" not-null="true" />
+        </property>
+        <property name="overProvisioningLimit" type="int">
+            <column name="overProvisioningLimit" not-null="true" />
+        </property>
+        <property name="overProvisioningPercent" type="int">
+            <column name="overProvisioningPercent" not-null="true" />
+        </property>
+        <property name="overProvisioningWarning" type="int">
+            <column name="overProvisioningWarning" not-null="true" />
+        </property>
+        <property name="poolFunction" type="int">
+            <column name="poolFunction" not-null="true" />
+        </property>
+        <property name="poolType" type="int">
+            <column name="poolType" not-null="true" />
+        </property>
+        <property name="raidLevel" type="string">
+            <column name="raidLevel" not-null="true" />
+        </property>
+        <property name="rpm" type="int">
+            <column name="rpm" not-null="true" />
+        </property>
+        <property name="status" type="int">
+            <column name="status" not-null="true" />
+        </property>
+        <property name="threshold" type="int">
+            <column name="threshold" not-null="true" />
+        </property>
+        <property name="threshold2" type="int">
+            <column name="threshold2" not-null="true" />
+        </property>
+        <property name="usageRate" type="int">
+            <column name="usageRate" not-null="true" />
+        </property>
+        <property name="volAlertNotice" type="int">
+            <column name="volAlertNotice" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

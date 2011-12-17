@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Dec 1, 2011 1:12:56 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.hitachi.hibernate.entities.Externalstorage" table="externalstorage" catalog="hitachi">
+        <composite-id name="id" class="com.hitachi.hibernate.entities.ExternalstorageId">
+            <key-property name="externalCapacityinKb" type="long">
+                <column name="externalCapacityinKB" />
+            </key-property>
+            <key-property name="numOfExternalVolume" type="int">
+                <column name="numOfExternalVolume" />
+            </key-property>
+        </composite-id>
+    </class>
+</hibernate-mapping>

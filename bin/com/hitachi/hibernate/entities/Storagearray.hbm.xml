@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Dec 1, 2011 1:17:19 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.hitachi.hibernate.entities.Storagearray" table="storagearray" catalog="hitachi">
+        <id name="objectId" type="string">
+            <column name="objectID" />
+            <generator class="assigned" />
+        </id>
+        <property name="agentVersion" type="string">
+            <column name="agentVersion" not-null="true" />
+        </property>
+        <property name="allocatedCapacityInGb" type="int">
+            <column name="allocatedCapacityInGB" not-null="true" />
+        </property>
+        <property name="allocatedCapacityinKb" type="int">
+            <column name="allocatedCapacityinKB" not-null="true" />
+        </property>
+        <property name="arrayFamily" type="string">
+            <column name="arrayFamily" not-null="true" />
+        </property>
+        <property name="arrayType" type="string">
+            <column name="arrayType" not-null="true" />
+        </property>
+        <property name="autoFormatLu" type="int">
+            <column name="autoFormatLU" not-null="true" />
+        </property>
+        <property name="cacheInMb" type="int">
+            <column name="cacheInMB" not-null="true" />
+        </property>
+        <property name="capacityInGb" type="int">
+            <column name="capacityInGB" not-null="true" />
+        </property>
+        <property name="configUpdateStatus" type="int">
+            <column name="configUpdateStatus" not-null="true" />
+        </property>
+        <property name="controllerVersion" type="string">
+            <column name="controllerVersion" not-null="true" />
+        </property>
+        <property name="displayArrayFamily" type="string">
+            <column name="displayArrayFamily" not-null="true" />
+        </property>
+        <property name="displayArrayType" type="string">
+            <column name="displayArrayType" not-null="true" />
+        </property>
+        <property name="distributedMode" type="int">
+            <column name="distributedMode" not-null="true" />
+        </property>
+        <property name="freeCapacityInGb" type="int">
+            <column name="freeCapacityInGB" not-null="true" />
+        </property>
+        <property name="freeCapacityInKb" type="int">
+            <column name="freeCapacityInKB" not-null="true" />
+        </property>
+        <property name="hihsmCapacityInGb" type="int">
+            <column name="hihsmCapacityInGB" not-null="true" />
+        </property>
+        <property name="hihsmCapacityInKb" type="int">
+            <column name="hihsmCapacityInKB" not-null="true" />
+        </property>
+        <property name="imAllocatedCapacity" type="int">
+            <column name="imAllocatedCapacity" not-null="true" />
+        </property>
+        <property name="imFreeCapacity" type="int">
+            <column name="imFreeCapacity" not-null="true" />
+        </property>
+        <property name="imHiHismCapacity" type="int">
+            <column name="imHiHismCapacity" not-null="true" />
+        </property>
+        <property name="imOnDemandCapacity" type="int">
+            <column name="imOnDemandCapacity" not-null="true" />
+        </property>
+        <property name="imTotalCapacity" type="int">
+            <column name="imTotalCapacity" not-null="true" />
+        </property>
+        <property name="largestFreeSpaceInGb" type="int">
+            <column name="largestFreeSpaceInGB" not-null="true" />
+        </property>
+        <property name="largestFreeSpaceInKb" type="int">
+            <column name="largestFreeSpaceInKB" not-null="true" />
+        </property>
+        <property name="lastRefreshed" type="int">
+            <column name="lastRefreshed" not-null="true" />
+        </property>
+        <property name="mfAllocatedCapacity" type="int">
+            <column name="mfAllocatedCapacity" not-null="true" />
+        </property>
+        <property name="mfHiHsmCapacity" type="int">
+            <column name="mfHiHsmCapacity" not-null="true" />
+        </property>
+        <property name="mfOnDemandCapacity" type="int">
+            <column name="mfOnDemandCapacity" not-null="true" />
+        </property>
+        <property name="mfTotalCapacity" type="int">
+            <column name="mfTotalCapacity" not-null="true" />
+        </property>
+        <property name="mfUnallocatedCapacity" type="int">
+            <column name="mfUnallocatedCapacity" not-null="true" />
+        </property>
+        <property name="microcodeVersion" type="string">
+            <column name="microcodeVersion" not-null="true" />
+        </property>
+        <property name="multipathSupport" type="int">
+            <column name="multipathSupport" not-null="true" />
+        </property>
+        <property name="name" type="string">
+            <column name="name" not-null="true" />
+        </property>
+        <property name="numberOfAllocatedMfLdevs" type="int">
+            <column name="numberOfAllocatedMfLDEVs" not-null="true" />
+        </property>
+        <property name="numberOfControllers" type="int">
+            <column name="numberOfControllers" not-null="true" />
+        </property>
+        <property name="numberOfImAllocatedLus" type="int">
+            <column name="numberOfImAllocatedLUs" not-null="true" />
+        </property>
+        <property name="numberOfImReservedLus" type="int">
+            <column name="numberOfImReservedLUs" not-null="true" />
+        </property>
+        <property name="numberofImUnalloctedLus" type="int">
+            <column name="numberofImUnalloctedLUs" not-null="true" />
+        </property>
+        <property name="numberOfLus" type="int">
+            <column name="numberOfLUs" not-null="true" />
+        </property>
+        <property name="numberOfMfLdevs" type="int">
+            <column name="numberOfMfLDEVs" not-null="true" />
+        </property>
+        <property name="numberOfOpenAllocatedLus" type="int">
+            <column name="numberOfOpenAllocatedLUs" not-null="true" />
+        </property>
+        <property name="numberOfOpenReservedLus" type="int">
+            <column name="numberOfOpenReservedLUs" not-null="true" />
+        </property>
+        <property name="numberOfOpenUnallocatedLus" type="int">
+            <column name="numberOfOpenUnallocatedLUs" not-null="true" />
+        </property>
+        <property name="numberOfReservedLus" type="int">
+            <column name="numberOfReservedLUs" not-null="true" />
+        </property>
+        <property name="numberOfSpareDrives" type="int">
+            <column name="numberOfSpareDrives" not-null="true" />
+        </property>
+        <property name="numberOfUnallocatedLus" type="int">
+            <column name="numberOfUnallocatedLUs" not-null="true" />
+        </property>
+        <property name="numberOfUnallocatedMfLdevs" type="int">
+            <column name="numberOfUnallocatedMfLDEVs" not-null="true" />
+        </property>
+        <property name="onDemandCapacityInGb" type="int">
+            <column name="onDemandCapacityInGB" not-null="true" />
+        </property>
+        <property name="onDemandCapacityInKb" type="int">
+            <column name="onDemandCapacityInKB" not-null="true" />
+        </property>
+        <property name="openAllocatedActualCapacity" type="int">
+            <column name="openAllocatedActualCapacity" not-null="true" />
+        </property>
+        <property name="openAllocatedCapacity" type="int">
+            <column name="openAllocatedCapacity" not-null="true" />
+        </property>
+        <property name="openFreeCapacity" type="int">
+            <column name="openFreeCapacity" not-null="true" />
+        </property>
+        <property name="openHiHsmCapacity" type="int">
+            <column name="openHiHsmCapacity" not-null="true" />
+        </property>
+        <property name="openOnDemandCapacity" type="int">
+            <column name="openOnDemandCapacity" not-null="true" />
+        </property>
+        <property name="openReservedActualCapacity" type="int">
+            <column name="openReservedActualCapacity" not-null="true" />
+        </property>
+        <property name="openReservedCapacity" type="int">
+            <column name="openReservedCapacity" not-null="true" />
+        </property>
+        <property name="openTotalCapacity" type="int">
+            <column name="openTotalCapacity" not-null="true" />
+        </property>
+        <property name="openUnallocatedActualCapacity" type="int">
+            <column name="openUnallocatedActualCapacity" not-null="true" />
+        </property>
+        <property name="openUnallocatedCapacity" type="int">
+            <column name="openUnallocatedCapacity" not-null="true" />
+        </property>
+        <property name="productCode" type="int">
+            <column name="productCode" not-null="true" />
+        </property>
+        <property name="productName" type="string">
+            <column name="productName" not-null="true" />
+        </property>
+        <property name="securityStatus" type="int">
+            <column name="securityStatus" not-null="true" />
+        </property>
+        <property name="sequenceNumber" type="int">
+            <column name="sequenceNumber" not-null="true" />
+        </property>
+        <property name="serialNumber" type="int">
+            <column name="serialNumber" not-null="true" />
+        </property>
+        <property name="sharedMemoryInMb" type="int">
+            <column name="sharedMemoryInMB" not-null="true" />
+        </property>
+        <property name="slprStatus" type="int">
+            <column name="slprStatus" not-null="true" />
+        </property>
+        <property name="statusOfDbinconsistency" type="int">
+            <column name="statusOfDBInconsistency" not-null="true" />
+        </property>
+        <property name="totalFreeSpaceInGb" type="int">
+            <column name="totalFreeSpaceInGB" not-null="true" />
+        </property>
+        <property name="totalFreeSpaceInKb" type="int">
+            <column name="totalFreeSpaceInKB" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

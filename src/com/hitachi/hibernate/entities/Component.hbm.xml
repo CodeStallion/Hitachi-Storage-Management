@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Dec 1, 2011 1:12:09 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.hitachi.hibernate.entities.Component" table="component" catalog="hitachi">
+        <composite-id name="id" class="com.hitachi.hibernate.entities.ComponentId">
+            <key-property name="description" type="string">
+                <column name="description" />
+            </key-property>
+            <key-property name="name" type="string">
+                <column name="name" />
+            </key-property>
+            <key-property name="value" type="int">
+                <column name="value" />
+            </key-property>
+        </composite-id>
+    </class>
+</hibernate-mapping>

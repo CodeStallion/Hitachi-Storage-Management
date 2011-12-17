@@ -1,0 +1,2171 @@
+
+DvMCLIResult:
+	version=7.0.0-00
+
+CommandResult:
+	command=GetStorageArray
+
+StorageArray:
+	displayArrayFamily=USP_V
+	allocatedCapacityInGB=4397
+	imFreeCapacity=0
+	largestFreeSpaceInGB=936
+	mfAllocatedCapacity=0
+	description=USP_VM (35656) at 10.6.59.62
+	agentVersion=05_06_00
+	numberOfUnallocatedMfLDEVs=0
+	openTotalCapacity=21033182144
+	onDemandCapacityInKB=0
+	imAllocatedCapacity=0
+	openReservedActualCapacity=13194939456
+	totalFreeSpaceInKB=1795158528
+	openUnallocatedCapacity=3227331328
+	imOnDemandCapacity=0
+	numberOfReservedLUs=51
+	imTotalCapacity=0
+	openHiHsmCapacity=0
+	sharedMemoryInMB=-1
+	numberOfUnallocatedLUs=111
+	arrayType=R601
+	capacityInKB=21033182144
+	allocatedCapacityInKB=4610911360
+	openOnDemandCapacity=0
+	displayArrayType=USP_VM
+	numberOfImAllocatedLUs=0
+	largestFreeSpaceInKB=981656064
+	numberOfSpareDrives=-1
+	productCode=1
+	numberOfOpenUnallocatedLUs=111
+	openAllocatedActualCapacity=20892480
+	openUnallocatedActualCapacity=477632448
+	mfUnallocatedCapacity=0
+	imHiHsmCapacity=0
+	microcodeVersion=60-06-20/00
+	objectID=ARRAY.R601.35656
+	statusOfDBInconsistency=0
+	freeCapacityInGB=15661
+	hihsmCapacityInGB=0
+	numberOfAllocatedMfLDEVs=0
+	numberOfControllers=1
+	lastRefreshed=1297978348
+	name=USP_VM@10.6.59.62
+	openAllocatedCapacity=4610911360
+	mfTotalCapacity=0
+	numberOfMfLDEVs=0
+	productName=RAID601
+	multipathSupport=1
+	sequenceNumber=35656
+	arrayFamily=R600
+	controllerVersion=60-06-21-00/00
+	openReservedCapacity=13194939456
+	serialNumber=35656
+	securityStatus=2
+	slprStatus=0
+	onDemandCapacityInGB=0
+	mfHiHsmCapacity=0
+	cacheInMB=131072
+	totalFreeSpaceInGB=1711
+	distributedMode=-1
+	numberOfOpenReservedLUs=51
+	freeCapacityInKB=16422270784
+	numberOfAllocatedLUs=96
+	numberOfLUs=258
+	hihsmCapacityInKB=0
+	numberOfImReservedLUs=0
+	mfOnDemandCapacity=0
+	openFreeCapacity=16422270784
+	autoFormatLU=1
+	numberOfImUnallocatedLUs=0
+	capacityInGB=20058
+	configUpdateStatus=0
+	numberOfOpenAllocatedLUs=96
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.0.0
+	domainID=0
+	nickname=1A-G00
+	portName=CL1-A
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL1-A-0
+	portID=0
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.0.1
+	domainID=1
+	nickname=HDS_D05_HBA1
+	portName=CL1-A
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL1-A-1
+	portID=0
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.C4.08
+	nickname=D05_HBA1
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.0.2
+	domainID=2
+	nickname=HDS_D07_HBA1_
+	portName=CL1-A
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL1-A-2
+	portID=0
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.A0.3B
+	nickname=D07_HBA1
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.0.3
+	domainID=3
+	nickname=HUR_TEST
+	portName=CL1-A
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL1-A-3
+	portID=0
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.1.0
+	domainID=0
+	nickname=3A-G00
+	portName=CL3-A
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL3-A-0
+	portID=1
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.10.0
+	domainID=0
+	nickname=5E-G00
+	portName=CL5-E
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL5-E-0
+	portID=10
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.11.0
+	domainID=0
+	nickname=7E-G00
+	portName=CL7-E
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL7-E-0
+	portID=11
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.11.1
+	domainID=1
+	nickname=HDS_D02_HBA1
+	portName=CL7-E
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL7-E-1
+	portID=11
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.A2.D2
+	nickname=D02_HBA1
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.11.2
+	domainID=2
+	nickname=HDS_D04_HBA1
+	portName=CL7-E
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL7-E-2
+	portID=11
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.A5.6E
+	nickname=D04_HBA1
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.12.0
+	domainID=0
+	nickname=1F-G00
+	portName=CL1-F
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL1-F-0
+	portID=12
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.128.0
+	domainID=0
+	nickname=2A-G00
+	portName=CL2-A
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL2-A-0
+	portID=128
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.128.1
+	domainID=1
+	nickname=Dell_1950
+	portName=CL2-A
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL2-A-1
+	portID=128
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.A5.A6
+	nickname=Dell_1950a
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.128.2
+	domainID=2
+	nickname=hds-tools
+	portName=CL2-A
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL2-A-2
+	portID=128
+	domainType=0
+
+WWN:
+	WWN=10.00.00.00.C9.3D.07.C5
+	nickname=hds_tools_hba02
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.128.3
+	domainID=3
+	nickname=hds-SCOM
+	portName=CL2-A
+	hostMode=Windows Extension
+	hostModeOption=40
+	displayName=CL2-A-3
+	portID=128
+	domainType=0
+
+WWN:
+	WWN=10.00.00.00.C9.41.A1.09
+	nickname=HDS-SCOM
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.128.4
+	domainID=4
+	nickname=HDS-SQL
+	portName=CL2-A
+	hostMode=Windows Extension
+	hostModeOption=40
+	displayName=CL2-A-4
+	portID=128
+	domainType=0
+
+WWN:
+	WWN=10.00.00.00.C9.5C.1F.2D
+	nickname=HDS-SQL_HBA1
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.128.5
+	domainID=5
+	nickname=HDS-MGMT2
+	portName=CL2-A
+	hostMode=Windows Extension
+	hostModeOption=40
+	displayName=CL2-A-5
+	portID=128
+	domainType=0
+
+WWN:
+	WWN=10.00.00.00.C9.4B.3F.EA
+	nickname=
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.129.0
+	domainID=0
+	nickname=4A-G00
+	portName=CL4-A
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL4-A-0
+	portID=129
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.129.1
+	domainID=1
+	nickname=HDS-D05_HBA2
+	portName=CL4-A
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL4-A-1
+	portID=129
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.C4.09
+	nickname=D05_HBA2
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.129.2
+	domainID=2
+	nickname=HDS_D07_HBA2
+	portName=CL4-A
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL4-A-2
+	portID=129
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.A0.3A
+	nickname=D07_HBA2
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.13.0
+	domainID=0
+	nickname=3F-G00
+	portName=CL3-F
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL3-F-0
+	portID=13
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.130.0
+	domainID=0
+	nickname=6A-G00
+	portName=CL6-A
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL6-A-0
+	portID=130
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.130.1
+	domainID=1
+	nickname=HDS_D06_HBA2
+	portName=CL6-A
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL6-A-1
+	portID=130
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.9D.73
+	nickname=HDS_HBA2
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.130.2
+	domainID=2
+	nickname=HDS_D08_HBA2
+	portName=CL6-A
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL6-A-2
+	portID=130
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.9D.67
+	nickname=D08_HBA2
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.131.0
+	domainID=0
+	nickname=8A-G00
+	portName=CL8-A
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL8-A-0
+	portID=131
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.131.1
+	domainID=1
+	nickname=HDS_D09_HBA1
+	portName=CL8-A
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL8-A-1
+	portID=131
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.D4.3E.A0
+	nickname=D09_HBA2
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.131.2
+	domainID=2
+	nickname=HDS_D11_HBA1
+	portName=CL8-A
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL8-A-2
+	portID=131
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.D4.40.93
+	nickname=D11_HBA2
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.132.0
+	domainID=0
+	nickname=2B-G00
+	portName=CL2-B
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL2-B-0
+	portID=132
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.132.1
+	domainID=1
+	nickname=Dell_1950
+	portName=CL2-B
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL2-B-1
+	portID=132
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.A5.A7
+	nickname=Dell_1950b
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.133.0
+	domainID=0
+	nickname=4B-G00
+	portName=CL4-B
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL4-B-0
+	portID=133
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.134.0
+	domainID=0
+	nickname=6B-G00
+	portName=CL6-B
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL6-B-0
+	portID=134
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.134.1
+	domainID=1
+	nickname=HDS_D01_HBA2
+	portName=CL6-B
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL6-B-1
+	portID=134
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.9D.77
+	nickname=D01_HBA2
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.134.2
+	domainID=2
+	nickname=HDS_D03_HBA2
+	portName=CL6-B
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL6-B-2
+	portID=134
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.A8.29
+	nickname=D03_HBA2
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.135.0
+	domainID=0
+	nickname=8B-G00
+	portName=CL8-B
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL8-B-0
+	portID=135
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.136.0
+	domainID=0
+	nickname=2E-G00
+	portName=CL2-E
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL2-E-0
+	portID=136
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.136.1
+	domainID=1
+	nickname=Blade0
+	portName=CL2-E
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL2-E-1
+	portID=136
+	domainType=0
+
+WWN:
+	WWN=10.00.00.00.C9.42.AE.05
+	nickname=Blade 0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.136.2
+	domainID=2
+	nickname=hds-tools
+	portName=CL2-E
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL2-E-2
+	portID=136
+	domainType=0
+
+WWN:
+	WWN=10.00.00.00.C9.3D.07.C5
+	nickname=hds_tools_hba02
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.136.3
+	domainID=3
+	nickname=SI_HDS-SQL
+	portName=CL2-E
+	hostMode=Windows Extension
+	hostModeOption=40
+	displayName=CL2-E-3
+	portID=136
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.137.0
+	domainID=0
+	nickname=4E-G00
+	portName=CL4-E
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL4-E-0
+	portID=137
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.137.1
+	domainID=1
+	nickname=Blade1
+	portName=CL4-E
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL4-E-1
+	portID=137
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.138.0
+	domainID=0
+	nickname=6E-G00
+	portName=CL6-E
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL6-E-0
+	portID=138
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.138.1
+	domainID=1
+	nickname=HDS_D02_HBA2
+	portName=CL6-E
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL6-E-1
+	portID=138
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.A2.D3
+	nickname=D02_HBA2
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.138.2
+	domainID=2
+	nickname=HDS_D04_HBA2
+	portName=CL6-E
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL6-E-2
+	portID=138
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.A5.6F
+	nickname=D04_HBA2
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.139.0
+	domainID=0
+	nickname=8E-G00
+	portName=CL8-E
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL8-E-0
+	portID=139
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.139.1
+	domainID=1
+	nickname=HDS_D03_HBA1
+	portName=CL8-E
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL8-E-1
+	portID=139
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.A8.28
+	nickname=D03_HBA1
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.139.3
+	domainID=3
+	nickname=HDS_D01_HBA1
+	portName=CL8-E
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL8-E-3
+	portID=139
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.9D.76
+	nickname=D01_HBA1
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.14.0
+	domainID=0
+	nickname=5F-G00
+	portName=CL5-F
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL5-F-0
+	portID=14
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.140.0
+	domainID=0
+	nickname=2F-G00
+	portName=CL2-F
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL2-F-0
+	portID=140
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.140.1
+	domainID=1
+	nickname=Blade0
+	portName=CL2-F
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL2-F-1
+	portID=140
+	domainType=0
+
+WWN:
+	WWN=10.00.00.00.C9.42.AF.9E
+	nickname=Blade0_HBA1
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.140.2
+	domainID=2
+	nickname=HDS-SQL
+	portName=CL2-F
+	hostMode=Windows Extension
+	hostModeOption=40
+	displayName=CL2-F-2
+	portID=140
+	domainType=0
+
+WWN:
+	WWN=10.00.00.00.C9.5C.21.3D
+	nickname=hds-sql_hba2
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.140.3
+	domainID=3
+	nickname=CITRIX-XSG-DEV11
+	portName=CL2-F
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL2-F-3
+	portID=140
+	domainType=0
+
+WWN:
+	WWN=10.00.00.00.C9.76.4D.7D
+	nickname=
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.140.4
+	domainID=4
+	nickname=CITRIX-XSG-DEV12
+	portName=CL2-F
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL2-F-4
+	portID=140
+	domainType=0
+
+WWN:
+	WWN=10.00.00.00.C9.76.4A.22
+	nickname=
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.140.5
+	domainID=5
+	nickname=CITRIX-AD
+	portName=CL2-F
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL2-F-5
+	portID=140
+	domainType=0
+
+WWN:
+	WWN=10.00.00.00.C9.76.4A.12
+	nickname=
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.140.6
+	domainID=6
+	nickname=Citrix_SL_Reservation_HSD
+	portName=CL2-F
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL2-F-6
+	portID=140
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.141.0
+	domainID=0
+	nickname=4F-G00
+	portName=CL4-F
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL4-F-0
+	portID=141
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.141.1
+	domainID=1
+	nickname=Blade1
+	portName=CL4-F
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL4-F-1
+	portID=141
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.142.0
+	domainID=0
+	nickname=6F-G00
+	portName=CL6-F
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL6-F-0
+	portID=142
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.142.1
+	domainID=1
+	nickname=HDS_D13_HBA2
+	portName=CL6-F
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL6-F-1
+	portID=142
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.D4.3E.A4
+	nickname=D13_HBA2
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.142.2
+	domainID=2
+	nickname=HDS_D15_HBA2
+	portName=CL6-F
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL6-F-2
+	portID=142
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.D4.43.71
+	nickname=D15_HBA2
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.143.0
+	domainID=0
+	nickname=8F-G00
+	portName=CL8-F
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL8-F-0
+	portID=143
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.15.0
+	domainID=0
+	nickname=7F-G00
+	portName=CL7-F
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL7-F-0
+	portID=15
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.2.0
+	domainID=0
+	nickname=5A-G00
+	portName=CL5-A
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL5-A-0
+	portID=2
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.2.1
+	domainID=1
+	nickname=HDS_D09_HBA1
+	portName=CL5-A
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL5-A-1
+	portID=2
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.D4.3E.9F
+	nickname=D09_HBA1
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.2.2
+	domainID=2
+	nickname=HDS_D11_HBA1
+	portName=CL5-A
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL5-A-2
+	portID=2
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.D4.40.92
+	nickname=D11_HBA1
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.3.0
+	domainID=0
+	nickname=7A-G00
+	portName=CL7-A
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL7-A-0
+	portID=3
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.4.0
+	domainID=0
+	nickname=1B-G00
+	portName=CL1-B
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL1-B-0
+	portID=4
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.4.1
+	domainID=1
+	nickname=HDS_D10_HBA1
+	portName=CL1-B
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL1-B-1
+	portID=4
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.D4.42.E6
+	nickname=D10_HBA1
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.4.2
+	domainID=2
+	nickname=HDS_D12_HBA1
+	portName=CL1-B
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL1-B-2
+	portID=4
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.D4.93.81
+	nickname=D12_HBA1
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.5.0
+	domainID=0
+	nickname=3B-G00
+	portName=CL3-B
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL3-B-0
+	portID=5
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.6.0
+	domainID=0
+	nickname=5B-G00
+	portName=CL5-B
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL5-B-0
+	portID=6
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.6.1
+	domainID=1
+	nickname=HDS_D13_HBA1
+	portName=CL5-B
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL5-B-1
+	portID=6
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.D4.3E.A3
+	nickname=D13_HBA1
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.6.2
+	domainID=2
+	nickname=HDS_D15_HBA1
+	portName=CL5-B
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL5-B-2
+	portID=6
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.D4.43.70
+	nickname=D15_HBA1
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.7.0
+	domainID=0
+	nickname=7B-G00
+	portName=CL7-B
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL7-B-0
+	portID=7
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.8.0
+	domainID=0
+	nickname=1E-G00
+	portName=CL1-E
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL1-E-0
+	portID=8
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.9.0
+	domainID=0
+	nickname=3E-G00
+	portName=CL3-E
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL3-E-0
+	portID=9
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.9.1
+	domainID=1
+	nickname=HDS_D10_HBA2
+	portName=CL3-E
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL3-E-1
+	portID=9
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.D4.42.E7
+	nickname=D10_HBA2
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35656.9.2
+	domainID=2
+	nickname=HDS_D12_HBA2
+	portName=CL3-E
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL3-E-2
+	portID=9
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.D4.93.82
+	nickname=D12_HBA2
+
+StorageArray:
+	displayArrayFamily=USP_V
+	allocatedCapacityInGB=10323
+	imFreeCapacity=0
+	largestFreeSpaceInGB=975
+	mfAllocatedCapacity=0
+	description=USP_VM (35657) at 10.6.59.52
+	agentVersion=05_06_00
+	numberOfUnallocatedMfLDEVs=0
+	openTotalCapacity=25530142720
+	onDemandCapacityInKB=0
+	imAllocatedCapacity=0
+	openReservedActualCapacity=13194942528
+	totalFreeSpaceInKB=2004877824
+	openUnallocatedCapacity=1510534592
+	imOnDemandCapacity=0
+	numberOfReservedLUs=51
+	imTotalCapacity=0
+	openHiHsmCapacity=0
+	sharedMemoryInMB=-1
+	numberOfUnallocatedLUs=36
+	arrayType=R601
+	capacityInKB=25530142720
+	allocatedCapacityInKB=10824665600
+	openOnDemandCapacity=0
+	displayArrayType=USP_VM
+	numberOfImAllocatedLUs=0
+	largestFreeSpaceInKB=1023215616
+	numberOfSpareDrives=-1
+	productCode=1
+	numberOfOpenUnallocatedLUs=36
+	openAllocatedActualCapacity=4102435520
+	openUnallocatedActualCapacity=95364672
+	mfUnallocatedCapacity=0
+	imHiHsmCapacity=0
+	microcodeVersion=60-06-20/00
+	objectID=ARRAY.R601.35657
+	statusOfDBInconsistency=0
+	freeCapacityInGB=14024
+	hihsmCapacityInGB=0
+	numberOfAllocatedMfLDEVs=0
+	numberOfControllers=1
+	lastRefreshed=1298012505
+	name=USP_VM@10.6.59.52
+	openAllocatedCapacity=10824665600
+	mfTotalCapacity=0
+	numberOfMfLDEVs=0
+	productName=RAID601
+	multipathSupport=1
+	sequenceNumber=35657
+	arrayFamily=R600
+	controllerVersion=60-06-21-00/00
+	openReservedCapacity=13194942528
+	serialNumber=35657
+	securityStatus=2
+	slprStatus=0
+	onDemandCapacityInGB=0
+	mfHiHsmCapacity=0
+	cacheInMB=131072
+	totalFreeSpaceInGB=1912
+	distributedMode=-1
+	numberOfOpenReservedLUs=51
+	freeCapacityInKB=14705477120
+	numberOfAllocatedLUs=70
+	numberOfLUs=157
+	hihsmCapacityInKB=0
+	numberOfImReservedLUs=0
+	mfOnDemandCapacity=0
+	openFreeCapacity=14705477120
+	autoFormatLU=1
+	numberOfImUnallocatedLUs=0
+	capacityInGB=24347
+	configUpdateStatus=0
+	numberOfOpenAllocatedLUs=70
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.0.0
+	domainID=0
+	nickname=1A-G00
+	portName=CL1-A
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL1-A-0
+	portID=0
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.0.1
+	domainID=1
+	nickname=HDS_D02_HBA1
+	portName=CL1-A
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL1-A-1
+	portID=0
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.A2.D2
+	nickname=D02_HBA1
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.0.2
+	domainID=2
+	nickname=HDS_D04_HBA1
+	portName=CL1-A
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL1-A-2
+	portID=0
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.A5.6E
+	nickname=D04_HBA1
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.0.3
+	domainID=3
+	nickname=HDS-MGMT2
+	portName=CL1-A
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL1-A-3
+	portID=0
+	domainType=0
+
+WWN:
+	WWN=10.00.00.00.C9.4B.3F.EA
+	nickname=HDS-MGMT2
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.0.4
+	domainID=4
+	nickname=HUR_Test
+	portName=CL1-A
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL1-A-4
+	portID=0
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.1.0
+	domainID=0
+	nickname=3A-G00
+	portName=CL3-A
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL3-A-0
+	portID=1
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.10.0
+	domainID=0
+	nickname=5E-G00
+	portName=CL5-E
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL5-E-0
+	portID=10
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.11.0
+	domainID=0
+	nickname=7E-G00
+	portName=CL7-E
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL7-E-0
+	portID=11
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.11.1
+	domainID=1
+	nickname=HDS_D02_HBA1
+	portName=CL7-E
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL7-E-1
+	portID=11
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.A2.D2
+	nickname=D02_HBA1
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.11.2
+	domainID=2
+	nickname=HDS_D04_HBA1
+	portName=CL7-E
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL7-E-2
+	portID=11
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.A5.6E
+	nickname=D04_HBA1
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.12.0
+	domainID=0
+	nickname=1F-G00
+	portName=CL1-F
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL1-F-0
+	portID=12
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.12.1
+	domainID=1
+	nickname=HDS_D14_HBA1
+	portName=CL1-F
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL1-F-1
+	portID=12
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.D4.43.1C
+	nickname=D14_HBA1
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.12.2
+	domainID=2
+	nickname=HDS_D16_HBA1
+	portName=CL1-F
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL1-F-2
+	portID=12
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.128.0
+	domainID=0
+	nickname=2A-G00
+	portName=CL2-A
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL2-A-0
+	portID=128
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.128.1
+	domainID=1
+	nickname=Dell_2950
+	portName=CL2-A
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL2-A-1
+	portID=128
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.C1.E8
+	nickname=Dell_2950a
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.128.2
+	domainID=2
+	nickname=HDS-TOOLS
+	portName=CL2-A
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL2-A-2
+	portID=128
+	domainType=0
+
+WWN:
+	WWN=10.00.00.00.C9.3D.07.C5
+	nickname=HDS-Tools_HBA02
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.128.3
+	domainID=3
+	nickname=HDS-MGMT2
+	portName=CL2-A
+	hostMode=Windows Extension
+	hostModeOption=40
+	displayName=CL2-A-3
+	portID=128
+	domainType=0
+
+WWN:
+	WWN=10.00.00.00.C9.4B.3F.EA
+	nickname=
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.128.5
+	domainID=5
+	nickname=CITRIX-AD
+	portName=CL2-A
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL2-A-5
+	portID=128
+	domainType=0
+
+WWN:
+	WWN=10.00.00.00.C9.76.4A.12
+	nickname=
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.128.6
+	domainID=6
+	nickname=HDS_SCOM
+	portName=CL2-A
+	hostMode=Windows Extension
+	hostModeOption=40
+	displayName=CL2-A-6
+	portID=128
+	domainType=0
+
+WWN:
+	WWN=10.00.00.00.C9.41.A1.09
+	nickname=
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.129.0
+	domainID=0
+	nickname=4A-G00
+	portName=CL4-A
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL4-A-0
+	portID=129
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.129.1
+	domainID=1
+	nickname=HDS_D02_HBA1
+	portName=CL4-A
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL4-A-1
+	portID=129
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.A2.D2
+	nickname=D02_HBA1
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.129.2
+	domainID=2
+	nickname=HDS_D04_HBA1
+	portName=CL4-A
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL4-A-2
+	portID=129
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.A5.6E
+	nickname=D04_HBA1
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.13.0
+	domainID=0
+	nickname=3F-G00
+	portName=CL3-F
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL3-F-0
+	portID=13
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.130.0
+	domainID=0
+	nickname=6A-G00
+	portName=CL6-A
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL6-A-0
+	portID=130
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.130.1
+	domainID=1
+	nickname=HDS_D02_HBA2
+	portName=CL6-A
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL6-A-1
+	portID=130
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.A2.D3
+	nickname=D02_HBA2
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.130.2
+	domainID=2
+	nickname=HDS_D04_HBA2
+	portName=CL6-A
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL6-A-2
+	portID=130
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.A5.6F
+	nickname=D04_HBA2
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.131.0
+	domainID=0
+	nickname=8A-G00
+	portName=CL8-A
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL8-A-0
+	portID=131
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.132.0
+	domainID=0
+	nickname=2B-G00
+	portName=CL2-B
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL2-B-0
+	portID=132
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.132.1
+	domainID=1
+	nickname=Dell_2950
+	portName=CL2-B
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL2-B-1
+	portID=132
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.C1.E9
+	nickname=Dell_2950b
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.132.2
+	domainID=2
+	nickname=HDS-SQL
+	portName=CL2-B
+	hostMode=Windows Extension
+	hostModeOption=40
+	displayName=CL2-B-2
+	portID=132
+	domainType=0
+
+WWN:
+	WWN=10.00.00.00.C9.5C.1F.2D
+	nickname=
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.132.3
+	domainID=3
+	nickname=CITRIX-AD2
+	portName=CL2-B
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL2-B-3
+	portID=132
+	domainType=0
+
+WWN:
+	WWN=10.00.00.00.C9.76.4A.12
+	nickname=
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.133.0
+	domainID=0
+	nickname=4B-G00
+	portName=CL4-B
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL4-B-0
+	portID=133
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.134.0
+	domainID=0
+	nickname=6B-G00
+	portName=CL6-B
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL6-B-0
+	portID=134
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.134.1
+	domainID=1
+	nickname=HDS_D10_HBA2
+	portName=CL6-B
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL6-B-1
+	portID=134
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.D4.42.E6
+	nickname=D10_HBA1
+
+WWN:
+	WWN=10.00.00.05.1E.D4.42.E7
+	nickname=D10_HBA2
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.134.2
+	domainID=2
+	nickname=HDS_D12_HBA2
+	portName=CL6-B
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL6-B-2
+	portID=134
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.D4.93.81
+	nickname=D12_HBA1
+
+WWN:
+	WWN=10.00.00.05.1E.D4.93.82
+	nickname=D12_HBA2
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.135.0
+	domainID=0
+	nickname=8B-G00
+	portName=CL8-B
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL8-B-0
+	portID=135
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.135.1
+	domainID=1
+	nickname=HDS_D01_HBA2
+	portName=CL8-B
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL8-B-1
+	portID=135
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.9D.77
+	nickname=D01_HBA2
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.135.2
+	domainID=2
+	nickname=HDS-D03_HBA2
+	portName=CL8-B
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL8-B-2
+	portID=135
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.A8.29
+	nickname=D03-HBA2
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.136.0
+	domainID=0
+	nickname=2E-G00
+	portName=CL2-E
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL2-E-0
+	portID=136
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.136.4
+	domainID=4
+	nickname=HCMD8800
+	portName=CL2-E
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL2-E-4
+	portID=136
+	domainType=0
+
+WWN:
+	WWN=10.00.00.00.C9.41.A1.57
+	nickname=
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.137.0
+	domainID=0
+	nickname=4E-G00
+	portName=CL4-E
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL4-E-0
+	portID=137
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.138.0
+	domainID=0
+	nickname=6E-G00
+	portName=CL6-E
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL6-E-0
+	portID=138
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.138.1
+	domainID=1
+	nickname=HDS_D06_HBA2
+	portName=CL6-E
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL6-E-1
+	portID=138
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.9D.73
+	nickname=D06_HBA2
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.138.2
+	domainID=2
+	nickname=HDS_D08_HBA2
+	portName=CL6-E
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL6-E-2
+	portID=138
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.9D.67
+	nickname=D08_HBA2
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.139.0
+	domainID=0
+	nickname=8E-G00
+	portName=CL8-E
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL8-E-0
+	portID=139
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.14.0
+	domainID=0
+	nickname=5F-G00
+	portName=CL5-F
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL5-F-0
+	portID=14
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.140.0
+	domainID=0
+	nickname=2F-G00
+	portName=CL2-F
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL2-F-0
+	portID=140
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.140.1
+	domainID=1
+	nickname=HDS_D06_HBA2
+	portName=CL2-F
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL2-F-1
+	portID=140
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.9D.73
+	nickname=D06_HBA2
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.140.2
+	domainID=2
+	nickname=HDS_D08_HBA2
+	portName=CL2-F
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL2-F-2
+	portID=140
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.9D.67
+	nickname=D08_HBA2
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.140.3
+	domainID=3
+	nickname=HDS-SQL
+	portName=CL2-F
+	hostMode=Windows Extension
+	hostModeOption=40
+	displayName=CL2-F-3
+	portID=140
+	domainType=0
+
+WWN:
+	WWN=10.00.00.00.C9.5C.21.3D
+	nickname=
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.140.4
+	domainID=4
+	nickname=HCMD8c00
+	portName=CL2-F
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL2-F-4
+	portID=140
+	domainType=0
+
+WWN:
+	WWN=10.00.00.00.C9.41.B2.B3
+	nickname=
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.140.5
+	domainID=5
+	nickname=CITRIX-XSG-DEV11
+	portName=CL2-F
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL2-F-5
+	portID=140
+	domainType=0
+
+WWN:
+	WWN=10.00.00.00.C9.76.4D.7D
+	nickname=
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.140.6
+	domainID=6
+	nickname=CITRIX-XSG-DEV12
+	portName=CL2-F
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL2-F-6
+	portID=140
+	domainType=0
+
+WWN:
+	WWN=10.00.00.00.C9.76.4A.22
+	nickname=
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.140.7
+	domainID=7
+	nickname=CITRIX-AD
+	portName=CL2-F
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL2-F-7
+	portID=140
+	domainType=0
+
+WWN:
+	WWN=10.00.00.00.C9.76.4A.12
+	nickname=
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.140.8
+	domainID=8
+	nickname=Citrix_SL_Reservation_HSD
+	portName=CL2-F
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL2-F-8
+	portID=140
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.141.0
+	domainID=0
+	nickname=4F-G00
+	portName=CL4-F
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL4-F-0
+	portID=141
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.142.0
+	domainID=0
+	nickname=6F-G00
+	portName=CL6-F
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL6-F-0
+	portID=142
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.142.1
+	domainID=1
+	nickname=HDS_D02_HBA2
+	portName=CL6-F
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL6-F-1
+	portID=142
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.A2.D3
+	nickname=D02_HBA2
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.142.2
+	domainID=2
+	nickname=HDS_D04_HBA2
+	portName=CL6-F
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL6-F-2
+	portID=142
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.A5.6F
+	nickname=D04_HBA2
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.143.0
+	domainID=0
+	nickname=8F-G00
+	portName=CL8-F
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL8-F-0
+	portID=143
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.143.1
+	domainID=1
+	nickname=HDS_D02_HBA2
+	portName=CL8-F
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL8-F-1
+	portID=143
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.A2.D3
+	nickname=D02_HBA2
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.143.2
+	domainID=2
+	nickname=HDS_D04_HBA2
+	portName=CL8-F
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL8-F-2
+	portID=143
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.A5.6F
+	nickname=D04_HBA2
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.15.0
+	domainID=0
+	nickname=7F-G00
+	portName=CL7-F
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL7-F-0
+	portID=15
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.2.0
+	domainID=0
+	nickname=5A-G00
+	portName=CL5-A
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL5-A-0
+	portID=2
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.2.1
+	domainID=1
+	nickname=HDS_D06_HBA1
+	portName=CL5-A
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL5-A-1
+	portID=2
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.9D.72
+	nickname=D06_HBA1
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.2.2
+	domainID=2
+	nickname=HDS_D08_HBA1
+	portName=CL5-A
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL5-A-2
+	portID=2
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.9D.66
+	nickname=D08_HBA1
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.3.0
+	domainID=0
+	nickname=7A-G00
+	portName=CL7-A
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL7-A-0
+	portID=3
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.4.0
+	domainID=0
+	nickname=1B-G00
+	portName=CL1-B
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL1-B-0
+	portID=4
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.4.1
+	domainID=1
+	nickname=HDS_D06_HBA1
+	portName=CL1-B
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL1-B-1
+	portID=4
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.9D.72
+	nickname=D06_HBA1
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.4.2
+	domainID=2
+	nickname=HDS_D08_HBA1
+	portName=CL1-B
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL1-B-2
+	portID=4
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.8E.9D.66
+	nickname=D08_HBA1
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.5.0
+	domainID=0
+	nickname=3B-G00
+	portName=CL3-B
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL3-B-0
+	portID=5
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.6.0
+	domainID=0
+	nickname=5B-G00
+	portName=CL5-B
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL5-B-0
+	portID=6
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.7.0
+	domainID=0
+	nickname=7B-G00
+	portName=CL7-B
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL7-B-0
+	portID=7
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.8.0
+	domainID=0
+	nickname=1E-G00
+	portName=CL1-E
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL1-E-0
+	portID=8
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.9.0
+	domainID=0
+	nickname=3E-G00
+	portName=CL3-E
+	hostMode=Standard
+	hostModeOption=
+	displayName=CL3-E-0
+	portID=9
+	domainType=0
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.9.1
+	domainID=1
+	nickname=HDS_D10_HBA1
+	portName=CL3-E
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL3-E-1
+	portID=9
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.D4.42.E6
+	nickname=D10_HBA1
+
+HostStorageDomain:
+	objectID=HSDOMAIN.R601.35657.9.2
+	domainID=2
+	nickname=HDS_D12_HBA1
+	portName=CL3-E
+	hostMode=Windows Extension
+	hostModeOption=
+	displayName=CL3-E-2
+	portID=9
+	domainType=0
+
+WWN:
+	WWN=10.00.00.05.1E.D4.93.81
+	nickname=D12_HBA1

@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Dec 1, 2011 1:16:04 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.hitachi.hibernate.entities.Port" table="port" catalog="hitachi">
+        <composite-id name="id" class="com.hitachi.hibernate.entities.PortId">
+            <key-property name="portId" type="int">
+                <column name="portID" />
+            </key-property>
+            <key-property name="displayName" type="string">
+                <column name="displayName" />
+            </key-property>
+            <key-property name="objectId" type="string">
+                <column name="objectID" />
+            </key-property>
+        </composite-id>
+        <property name="channelSpeed" type="int">
+            <column name="channelSpeed" not-null="true" />
+        </property>
+        <property name="controllerId" type="int">
+            <column name="controllerID" not-null="true" />
+        </property>
+        <property name="fibreAddress" type="string">
+            <column name="fibreAddress" not-null="true" />
+        </property>
+        <property name="keepAliveTime" type="int">
+            <column name="keepAliveTime" not-null="true" />
+        </property>
+        <property name="lunSecurityEnabled" type="boolean">
+            <column name="lunSecurityEnabled" not-null="true" />
+        </property>
+        <property name="portNumber" type="int">
+            <column name="portNumber" not-null="true" />
+        </property>
+        <property name="portRole" type="string">
+            <column name="portRole" not-null="true" />
+        </property>
+        <property name="portType" type="string">
+            <column name="portType" not-null="true" />
+        </property>
+        <property name="slprNumber" type="int">
+            <column name="slprNumber" not-null="true" />
+        </property>
+        <property name="topology" type="string">
+            <column name="topology" not-null="true" />
+        </property>
+        <property name="worldWidePortName" type="string">
+            <column name="worldWidePortName" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

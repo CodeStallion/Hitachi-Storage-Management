@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Dec 1, 2011 1:18:08 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.hitachi.hibernate.entities.Wwn" table="wwn" catalog="hitachi">
+        <id name="wwn" type="string">
+            <column name="WWN" />
+            <generator class="assigned" />
+        </id>
+        <property name="nickname" type="string">
+            <column name="nickname" not-null="true" />
+        </property>
+        <property name="wwn2hsd" type="string">
+            <column name="WWN2HSD" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

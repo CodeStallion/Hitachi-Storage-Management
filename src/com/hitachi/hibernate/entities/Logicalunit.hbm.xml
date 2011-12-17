@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Dec 16, 2011 4:19:34 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.hitachi.hibernate.entities.Logicalunit" table="logicalunit" catalog="hitachi">
+        <composite-id name="id" class="com.hitachi.hibernate.entities.LogicalunitId">
+            <key-property name="devNum" type="int">
+                <column name="devNum" />
+            </key-property>
+            <key-property name="displayName" type="string">
+                <column name="displayName" />
+            </key-property>
+            <key-property name="objectId" type="string">
+                <column name="objectID" />
+            </key-property>
+        </composite-id>
+        <property name="arrayGroup" type="int">
+            <column name="arrayGroup" not-null="true" />
+        </property>
+        <property name="arrayGroupName" type="string">
+            <column name="arrayGroupName" not-null="true" />
+        </property>
+        <property name="capacityInKb" type="int">
+            <column name="capacityInKB" not-null="true" />
+        </property>
+        <property name="chassis" type="int">
+            <column name="chassis" not-null="true" />
+        </property>
+        <property name="commandDevice" type="boolean">
+            <column name="commandDevice" not-null="true" />
+        </property>
+        <property name="commandDeviceEx" type="int">
+            <column name="commandDeviceEx" not-null="true" />
+        </property>
+        <property name="commandDeviceSecurity" type="boolean">
+            <column name="commandDeviceSecurity" not-null="true" />
+        </property>
+        <property name="consumedCapacityInKb" type="int">
+            <column name="consumedCapacityInKB" not-null="true" />
+        </property>
+        <property name="currentPortController" type="int">
+            <column name="currentPortController" not-null="true" />
+        </property>
+        <property name="defaultPortController" type="int">
+            <column name="defaultPortController" not-null="true" />
+        </property>
+        <property name="devCount" type="int">
+            <column name="devCount" not-null="true" />
+        </property>
+        <property name="devType" type="string">
+            <column name="devType" length="45" not-null="true" />
+        </property>
+        <property name="differentialManagement" type="boolean">
+            <column name="differentialManagement" not-null="true" />
+        </property>
+        <property name="dpPoolId" type="int">
+            <column name="dpPoolID" not-null="true" />
+        </property>
+        <property name="dpType" type="int">
+            <column name="dpType" not-null="true" />
+        </property>
+        <property name="emulation" type="string">
+            <column name="emulation" not-null="true" />
+        </property>
+        <property name="externalVolume" type="int">
+            <column name="externalVolume" not-null="true" />
+        </property>
+        <property name="isComposite" type="int">
+            <column name="isComposite" not-null="true" />
+        </property>
+        <property name="path" type="boolean">
+            <column name="path" not-null="true" />
+        </property>
+        <property name="quickShadowVolumeType" type="string">
+            <column name="quickShadowVolumeType" not-null="true" />
+        </property>
+        <property name="raidType" type="string">
+            <column name="raidType" not-null="true" />
+        </property>
+        <property name="shadowImageVolumeType" type="string">
+            <column name="shadowImageVolumeType" not-null="true" />
+        </property>
+        <property name="sysVolFlag" type="int">
+            <column name="sysVolFlag" not-null="true" />
+        </property>
+        <property name="tcaPoolId" type="int">
+            <column name="tcaPoolID" not-null="true" />
+        </property>
+        <property name="threshold" type="int">
+            <column name="threshold" not-null="true" />
+        </property>
+        <property name="trueCopyVolumeType" type="string">
+            <column name="trueCopyVolumeType" not-null="true" />
+        </property>
+        <property name="universalReplicatorPoolId" type="int">
+            <column name="universalReplicatorPoolID" not-null="true" />
+        </property>
+        <property name="universalReplicatorVolumeType" type="string">
+            <column name="universalReplicatorVolumeType" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

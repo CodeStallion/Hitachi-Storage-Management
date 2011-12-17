@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+ <session-factory name="">
+  <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+  <property name="hibernate.connection.password">abcd</property>
+  <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/hitachi</property>
+  <property name="hibernate.connection.username">root</property>
+  <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+  <property name="hibernate.show_sql">true</property>
+  <mapping class="com.hitachi.hibernate.entities.Component" resource="com/hitachi/hibernate/entities/Component.hbm.xml"/>
+  <mapping class="com.hitachi.hibernate.entities.Arraygroup" resource="com/hitachi/hibernate/entities/Arraygroup.hbm.xml"/>
+  <mapping class="com.hitachi.hibernate.entities.Externalstorage" resource="com/hitachi/hibernate/entities/Externalstorage.hbm.xml"/>
+  <mapping class="com.hitachi.hibernate.entities.Hoststoragedomain" resource="com/hitachi/hibernate/entities/Hoststoragedomain.hbm.xml"/>
+  <mapping class="com.hitachi.hibernate.entities.Ldev" resource="com/hitachi/hibernate/entities/Ldev.hbm.xml"/>
+  <mapping class="com.hitachi.hibernate.entities.Logicalunit" resource="com/hitachi/hibernate/entities/Logicalunit.hbm.xml"/>
+  <mapping class="com.hitachi.hibernate.entities.Path" resource="com/hitachi/hibernate/entities/Path.hbm.xml"/>
+  <mapping class="com.hitachi.hibernate.entities.Pdev" resource="com/hitachi/hibernate/entities/Pdev.hbm.xml"/>
+  <mapping class="com.hitachi.hibernate.entities.Pool" resource="com/hitachi/hibernate/entities/Pool.hbm.xml"/>
+  <mapping class="com.hitachi.hibernate.entities.Port" resource="com/hitachi/hibernate/entities/Port.hbm.xml"/>
+  <mapping class="com.hitachi.hibernate.entities.Replicationinfo" resource="com/hitachi/hibernate/entities/Replicationinfo.hbm.xml"/>
+  <mapping class="com.hitachi.hibernate.entities.Storagearray" resource="com/hitachi/hibernate/entities/Storagearray.hbm.xml"/>
+  <mapping class="com.hitachi.hibernate.entities.Wwn" resource="com/hitachi/hibernate/entities/Wwn.hbm.xml"/>
+  <mapping class="com.hitachi.hibernate.entities.Portcontroller" resource="com/hitachi/hibernate/entities/Portcontroller.hbm.xml"/>
+ </session-factory>
+</hibernate-configuration>
