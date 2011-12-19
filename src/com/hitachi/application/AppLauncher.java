@@ -126,6 +126,13 @@ public class AppLauncher {
 						Ldev obj = new Ldev();
 						obj.populate(currElem);
 						HibernateDriver.run(obj);
+						
+						if(iter.hasNext() && iter.next().getElement().equalsIgnoreCase("ObjectLabel")){
+							currElem = iter.next();
+							Objectlabel olObj = new Objectlabel();
+							olObj.populate(currElem);
+							HibernateDriver.run(olObj);
+						}
 					}
 				}
 			}

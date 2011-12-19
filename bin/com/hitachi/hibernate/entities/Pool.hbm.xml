@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
-<!-- Generated Dec 1, 2011 1:15:41 AM by Hibernate Tools 3.4.0.CR1 -->
+<!-- Generated Dec 19, 2011 2:23:47 AM by Hibernate Tools 3.4.0.CR1 -->
 <hibernate-mapping>
     <class name="com.hitachi.hibernate.entities.Pool" table="pool" catalog="hitachi">
         <composite-id name="id" class="com.hitachi.hibernate.entities.PoolId">
@@ -12,10 +12,10 @@
                 <column name="objectID" />
             </key-property>
         </composite-id>
-        <property name="capacityInKb" type="int">
+        <property name="capacityInKb" type="long">
             <column name="capacityInKB" not-null="true" />
         </property>
-        <property name="capacityOfVvolsInKb" type="int">
+        <property name="capacityOfVvolsInKb" type="long">
             <column name="capacityOfVVolsInKB" not-null="true" />
         </property>
         <property name="clprNumber" type="int">
@@ -30,7 +30,7 @@
         <property name="diskType" type="int">
             <column name="diskType" not-null="true" />
         </property>
-        <property name="freeCapacityInKb" type="int">
+        <property name="freeCapacityInKb" type="long">
             <column name="freeCapacityInKB" not-null="true" />
         </property>
         <property name="migrationInterval" type="int">

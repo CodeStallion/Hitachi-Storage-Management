@@ -182,7 +182,7 @@ public class Pdev implements java.io.Serializable {
 		this.setDkuType(pElem.getAttribute().get("dkuType"));
 		this.setModel(pElem.getAttribute().get("model"));
 		this.setObjectId(pElem.getAttribute().get("objectID"));
-		this.setPdevColumn(Integer.parseInt(pElem.getAttribute().get("pdevColumn")));
+		this.setPdevColumn(Integer.parseInt(pElem.getAttribute().get("column")));
 		this.setPdevid(Integer.parseInt(pElem.getAttribute().get("pdevid")));
 		this.setRow(Integer.parseInt(pElem.getAttribute().get("row")));
 		this.setRpm(Integer.parseInt(pElem.getAttribute().get("rpm")));

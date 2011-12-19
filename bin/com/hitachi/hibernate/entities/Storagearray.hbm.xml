@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
-<!-- Generated Dec 1, 2011 1:17:19 AM by Hibernate Tools 3.4.0.CR1 -->
+<!-- Generated Dec 19, 2011 1:28:07 AM by Hibernate Tools 3.4.0.CR1 -->
 <hibernate-mapping>
     <class name="com.hitachi.hibernate.entities.Storagearray" table="storagearray" catalog="hitachi">
         <id name="objectId" type="string">
@@ -14,7 +14,7 @@
         <property name="allocatedCapacityInGb" type="int">
             <column name="allocatedCapacityInGB" not-null="true" />
         </property>
-        <property name="allocatedCapacityinKb" type="int">
+        <property name="allocatedCapacityinKb" type="long">
             <column name="allocatedCapacityinKB" not-null="true" />
         </property>
         <property name="arrayFamily" type="string">
@@ -50,34 +50,34 @@
         <property name="freeCapacityInGb" type="int">
             <column name="freeCapacityInGB" not-null="true" />
         </property>
-        <property name="freeCapacityInKb" type="int">
+        <property name="freeCapacityInKb" type="long">
             <column name="freeCapacityInKB" not-null="true" />
         </property>
         <property name="hihsmCapacityInGb" type="int">
             <column name="hihsmCapacityInGB" not-null="true" />
         </property>
-        <property name="hihsmCapacityInKb" type="int">
+        <property name="hihsmCapacityInKb" type="long">
             <column name="hihsmCapacityInKB" not-null="true" />
         </property>
-        <property name="imAllocatedCapacity" type="int">
+        <property name="imAllocatedCapacity" type="long">
             <column name="imAllocatedCapacity" not-null="true" />
         </property>
-        <property name="imFreeCapacity" type="int">
+        <property name="imFreeCapacity" type="long">
             <column name="imFreeCapacity" not-null="true" />
         </property>
-        <property name="imHiHismCapacity" type="int">
-            <column name="imHiHismCapacity" not-null="true" />
+        <property name="imHiHsmCapacity" type="long">
+            <column name="imHiHsmCapacity" not-null="true" />
         </property>
-        <property name="imOnDemandCapacity" type="int">
+        <property name="imOnDemandCapacity" type="long">
             <column name="imOnDemandCapacity" not-null="true" />
         </property>
-        <property name="imTotalCapacity" type="int">
+        <property name="imTotalCapacity" type="long">
             <column name="imTotalCapacity" not-null="true" />
         </property>
         <property name="largestFreeSpaceInGb" type="int">
             <column name="largestFreeSpaceInGB" not-null="true" />
         </property>
-        <property name="largestFreeSpaceInKb" type="int">
+        <property name="largestFreeSpaceInKb" type="long">
             <column name="largestFreeSpaceInKB" not-null="true" />
         </property>
         <property name="lastRefreshed" type="int">
@@ -119,8 +119,8 @@
         <property name="numberOfImReservedLus" type="int">
             <column name="numberOfImReservedLUs" not-null="true" />
         </property>
-        <property name="numberofImUnalloctedLus" type="int">
-            <column name="numberofImUnalloctedLUs" not-null="true" />
+        <property name="numberofImUnallocatedLus" type="int">
+            <column name="numberofImUnallocatedLUs" not-null="true" />
         </property>
         <property name="numberOfLus" type="int">
             <column name="numberOfLUs" not-null="true" />
@@ -155,34 +155,34 @@
         <property name="onDemandCapacityInKb" type="int">
             <column name="onDemandCapacityInKB" not-null="true" />
         </property>
-        <property name="openAllocatedActualCapacity" type="int">
+        <property name="openAllocatedActualCapacity" type="long">
             <column name="openAllocatedActualCapacity" not-null="true" />
         </property>
-        <property name="openAllocatedCapacity" type="int">
+        <property name="openAllocatedCapacity" type="long">
             <column name="openAllocatedCapacity" not-null="true" />
         </property>
-        <property name="openFreeCapacity" type="int">
+        <property name="openFreeCapacity" type="long">
             <column name="openFreeCapacity" not-null="true" />
         </property>
-        <property name="openHiHsmCapacity" type="int">
+        <property name="openHiHsmCapacity" type="long">
             <column name="openHiHsmCapacity" not-null="true" />
         </property>
-        <property name="openOnDemandCapacity" type="int">
+        <property name="openOnDemandCapacity" type="long">
             <column name="openOnDemandCapacity" not-null="true" />
         </property>
-        <property name="openReservedActualCapacity" type="int">
+        <property name="openReservedActualCapacity" type="long">
             <column name="openReservedActualCapacity" not-null="true" />
         </property>
-        <property name="openReservedCapacity" type="int">
+        <property name="openReservedCapacity" type="long">
             <column name="openReservedCapacity" not-null="true" />
         </property>
-        <property name="openTotalCapacity" type="int">
+        <property name="openTotalCapacity" type="long">
             <column name="openTotalCapacity" not-null="true" />
         </property>
-        <property name="openUnallocatedActualCapacity" type="int">
+        <property name="openUnallocatedActualCapacity" type="long">
             <column name="openUnallocatedActualCapacity" not-null="true" />
         </property>
-        <property name="openUnallocatedCapacity" type="int">
+        <property name="openUnallocatedCapacity" type="long">
             <column name="openUnallocatedCapacity" not-null="true" />
         </property>
         <property name="productCode" type="int">

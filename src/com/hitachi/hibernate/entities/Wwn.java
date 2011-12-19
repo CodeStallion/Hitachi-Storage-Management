@@ -49,7 +49,7 @@ public class Wwn implements java.io.Serializable {
 	public void populate(ParseElement pElem,String hsdObj){
 		
 		this.setNickname(pElem.getAttribute().get("nickname"));
-		this.setWwn(pElem.getAttribute().get("wwn"));
+		this.setWwn(pElem.getAttribute().get("WWN"));
 		this.setWwn2hsd(hsdObj);
 	}
 
